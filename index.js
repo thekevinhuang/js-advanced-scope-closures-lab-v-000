@@ -12,9 +12,14 @@ function produceDrivingRange(range) {
 }
 
 function produceTipCalculator() {
-  
+
 }
 
 function createDriver() {
-  
+  let driverId = 0
+  return class Driver{
+    constructor(){
+      this.id = ++driverId
+    }
+  }
 }
