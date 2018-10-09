@@ -11,9 +11,9 @@ function produceDrivingRange(range) {
   }
 }
 
-function produceTipCalculator() {
-  return function() {
-    
+function produceTipCalculator(rate) {
+  return function(dollars) {
+    return rate*dollars
   }
 }
 
