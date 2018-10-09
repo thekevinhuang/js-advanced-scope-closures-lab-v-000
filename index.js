@@ -14,3 +14,7 @@ function produceDrivingRange(range) {
 function produceTipCalculator() {
   
 }
+
+function createDriver() {
+  
+}
